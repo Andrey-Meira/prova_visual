@@ -1,0 +1,11 @@
+### Cadastrar um nova formaPagamento
+POST https://localhost:5001/api/formasPagamento/create
+Content-Type: application/json
+
+{
+    "Nome" : "Transferencia",
+    "Conta": "123456"
+}
+
+### Listar todas as formaPagamento
+GET https://localhost:5001/api/formasPagamento/list

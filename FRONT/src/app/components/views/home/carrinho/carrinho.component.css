@@ -12,3 +12,25 @@ img {
     width: 100px;
     height: 100px;
 }
+
+.div-btn{
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.btn{
+    cursor: pointer;
+    height: 41px;
+    margin-right: 2px;
+    background-color: #673ab7;
+    border-radius: 9px;
+    color: #fff;
+    border: none;
+    transition: 1s;
+}
+
+.btn:hover{
+    background-color: #513483;
+}

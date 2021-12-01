@@ -40,8 +40,13 @@
     </mat-card-content>
 
     <mat-card-header>
-        <mat-card-title>
+        <mat-card-title style="width: max-content;">
             Total: {{ valorTotal | currency: "BRL" }}
         </mat-card-title>
+
+        <div class="div-btn">
+            <button (click)='finalizarCompra()' type="button" class="btn">Finalizar Compra</button>
+        </div>
+
     </mat-card-header>
 </mat-card>
